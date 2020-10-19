@@ -12,8 +12,9 @@ uClient.close()
 
 # THIS WILL PARSE THE GIVEN HTML URL
 page_soup = soup(page_html, "html.parser")
-# SAMPLE
-page_soup.h1
+
+# SAMPLE OUTPUT OF h1
+# page_soup.h1
 # <h1 class="page-title-text">Processors - Desktops</h1>
 
 # CONTAINERS WILL CONTAIN ALL ITEMS IN A CONTAINER CLASS FROM HTML
